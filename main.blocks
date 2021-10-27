@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="M+4cn6Vdv$0twcdX+._(" x="0" y="0"><field name="NAME">Button.B</field><comment>The program makes the micro:bit person do 10 jumping jacks when the B button is pressed.</comment><statement name="HANDLER"><block type="controls_repeat_ext" id="zNXQguS@gH*1iOi*_/vX"><comment>repeat the jumping jack sequence 10 times</comment><value name="TIMES"><shadow type="math_number" id="x{mfa-{E9x?EM:3PFcZ["><field name="NUM">10</field></shadow></value><statement name="DO"><block type="device_show_leds" id="G3d:|F,.Aeg1:qOiL=wF"><field name="LEDS">`
+        . # # # . 
+        . # # # . 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field><comment>first jumping jack position</comment><next><block type="device_show_leds" id="(){^K![_CtM0)Ri:KrQQ"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><comment>second jumping jack position</comment></block></next></block></statement></block></statement></block></xml>
